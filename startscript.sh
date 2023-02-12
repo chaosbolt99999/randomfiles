@@ -1,5 +1,7 @@
 #!bin/bash
 
-/usr/sbin/sshd -D -e
+tmux new-session -d
+tmux send-keys '/usr/sbin/sshd -D -e' C-m
+tmux rename-window 'sshd'
 
 echo "succ"
