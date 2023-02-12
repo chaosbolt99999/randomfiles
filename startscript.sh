@@ -1,5 +1,5 @@
 #!bin/bash
 
-sshd -D -e
+/usr/sbin/sshd -D -e
 
 echo "succ"
