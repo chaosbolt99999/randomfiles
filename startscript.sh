@@ -1,7 +1,7 @@
 #!bin/bash
 
 tmux new-session -d
-tmux send-keys '/usr/sbin/sshd -D -e' C-m
-tmux rename-window 'sshd'
+tmux send-keys '/root/restart.sh' C-m
+tmux rename-window 'minecraft'
 
-echo "succ"
+/usr/sbin/sshd -D -e
