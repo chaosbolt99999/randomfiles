@@ -1,5 +1,5 @@
-#!/bin/bash
+#!bin/bash
 
 sshd -D -e
 
-echo "hello world!"
+echo "succ"
